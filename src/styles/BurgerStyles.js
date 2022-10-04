@@ -23,7 +23,7 @@ ${mq[0,1]}{
     width:1.4rem;
     height:0.15rem;
     border-radius:10px;
-    background-color:${({open})=>open ? 'white':'black' };
+    background-color:${({open})=>open ? 'black':'black' };
     font-size:16px;
     transform-origin:1px;
     transition:all 0.3s linear;
