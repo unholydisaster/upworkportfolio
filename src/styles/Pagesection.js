@@ -54,7 +54,7 @@ export const Div2=styled.div`
     border-radius:10px;
     border:1px solid whitesmoke;
     position:absolute;
-    opacity:20%;
+    opacity:50%;
 
     }`
 
@@ -68,7 +68,7 @@ export const Div2=styled.div`
     border-radius:10px;
     border:1px solid whitesmoke;
     position:relative;
-    opacity:20%;
+    opacity:50%;
 
     }`
 
@@ -81,7 +81,7 @@ export const Div2=styled.div`
     border-radius:10px;
     border:1px solid whitesmoke;
     position:absolute;
-    opacity:20%;
+    opacity:50%;
 
     }`
 
@@ -94,7 +94,7 @@ export const Div2=styled.div`
     border-radius:10px;
     border:1px solid whitesmoke;
     position:absolute;
-    opacity:20%;
+    opacity:50%;
 
     }`
     
