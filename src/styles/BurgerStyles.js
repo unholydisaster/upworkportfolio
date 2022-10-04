@@ -11,7 +11,7 @@ export const Styledburger=styled.div`
     width:1.4rem;
     height:1.4rem;
     position:absolute;
-    top:25px;
+    top:15px;
     left:5%;
     display:flex;
     justify-content:space-around;
