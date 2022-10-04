@@ -17,7 +17,7 @@ export const Imagecontainer=styled.div`{
 export const Div=styled.div`{
     width:100vw;
     height:50px;
-    background-color:black;
+    background-color:white;
     position:relative;
     Z-index:20;
 }`
