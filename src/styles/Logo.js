@@ -3,7 +3,7 @@ import { mq } from "./BurgerStyles"
 
 export const Logoname=styled.p`
 ${mq[0,1]}{
-    position:absolute;
+    position:relative;
     top:10px;
     left:25%;
     font-size:30px;
