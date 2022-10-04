@@ -30,7 +30,7 @@ export const Div2=styled.div`
     background-color:white;
     border:1px solid whitesmoke;
     position:relative;
-    opacity:20%;
+    opacity:50%;
     }`
 
     export const Div3=styled.div`
@@ -54,7 +54,7 @@ export const Div2=styled.div`
     border-radius:10px;
     border:1px solid whitesmoke;
     position:absolute;
-    opacity:50%;
+    opacity:90%;
 
     }`
 
@@ -68,7 +68,7 @@ export const Div2=styled.div`
     border-radius:10px;
     border:1px solid whitesmoke;
     position:relative;
-    opacity:50%;
+    opacity:90%;
 
     }`
 
@@ -81,7 +81,7 @@ export const Div2=styled.div`
     border-radius:10px;
     border:1px solid whitesmoke;
     position:absolute;
-    opacity:50%;
+    opacity:90%;
 
     }`
 
@@ -94,7 +94,7 @@ export const Div2=styled.div`
     border-radius:10px;
     border:1px solid whitesmoke;
     position:absolute;
-    opacity:50%;
+    opacity:90%;
 
     }`
     
