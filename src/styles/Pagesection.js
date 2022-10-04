@@ -17,7 +17,7 @@ export const Imagecontainer=styled.div`{
 export const Div=styled.div`{
     width:100vw;
     height:50px;
-    background-color:white;
+    background-color:black;
     position:relative;
     Z-index:20;
 }`
@@ -27,7 +27,7 @@ export const Div2=styled.div`
     width:43vw;
     height:240px;
     top:5px;
-    background-color:white;
+    background-color:black;
     border:1px solid whitesmoke;
     position:relative;
     opacity:50%;
@@ -50,7 +50,7 @@ export const Div2=styled.div`
     width:100vw;
     height:500px;
     top:300px;
-    background-color:white;
+    background-color:black;
     border-radius:10px;
     border:1px solid whitesmoke;
     position:absolute;
@@ -64,7 +64,7 @@ export const Div2=styled.div`
     height:400px;
     top:50px;
     left:3%;
-    background-color:white;
+    background-color:black;
     border-radius:10px;
     border:1px solid whitesmoke;
     position:relative;
@@ -77,7 +77,7 @@ export const Div2=styled.div`
     width:100vw;
     height:80px;
     top:810px;
-    background-color:white;
+    background-color:black;
     border-radius:10px;
     border:1px solid whitesmoke;
     position:absolute;
@@ -90,7 +90,7 @@ export const Div2=styled.div`
     width:100vw;
     height:400px;
     top:910px;
-    background-color:white;
+    background-color:black;
     border-radius:10px;
     border:1px solid whitesmoke;
     position:absolute;
