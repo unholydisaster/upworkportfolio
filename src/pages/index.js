@@ -2,6 +2,7 @@ import { Div, Div2, Div3, Div4, Div5, Div6, Div7, Imagecontainer, Img, ImgBackgr
 import backgroundPic from "../../public/Image1.jpg"
 import profilepic from "../../public/Image2.jpg"
 import Image from 'next/image'
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
@@ -10,7 +11,9 @@ export default function Home() {
     <Image src={backgroundPic} layout="fill" alt="big"/>
     </Imagecontainer>
     
-    <Div/>
+    <Div>
+      <Navbar/>
+    </Div>
     <Div2/>
     <Div3>
     <Image src={profilepic}  alt="big"/>
