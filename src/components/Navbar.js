@@ -18,7 +18,6 @@ export default function Navbar(){
                      <Bugers open={open}  className="path2"/>
                      <Bugers open={open}  className="path3"/>
                    </Styledburger>
-                   <Logoname open={open}>Eli Musa</Logoname>
                    <Navcontainer open={open}>
                     <Links>
                        <Linkli><Linka href="/" passHref>Home</Linka></Linkli>

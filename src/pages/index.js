@@ -3,6 +3,7 @@ import backgroundPic from "../../public/Image1.jpg"
 import profilepic from "../../public/Image2.jpg"
 import Image from 'next/image'
 import Navbar from "../components/Navbar";
+import { Logoname } from "../styles/Logo";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
     
     <Div>
       <Navbar/>
+      <Logoname >Eli Musa</Logoname>
     </Div>
     <Div2/>
     <Div3>
