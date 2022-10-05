@@ -7,11 +7,27 @@ export const mq=breakpoints.map(
 )
 
 
+export const Image1=styled(Image)`
+${mq[0,1]}{
+
+}`
+
+export const Image2=styled(Image)`
+${mq[0,1]}{
+
+}`
+
 export const Imagecontainer=styled.div`{
     width:100vw;
     height:100vh;
-    position:fixed;
+    position:fixed !important;
 
+    .image{
+        object-fit:contain;
+        width:100vw !important;
+        height:100vh !important;
+        position:relative !important;
+    }
 }`
 
 export const Div=styled.div`{
@@ -29,6 +45,7 @@ export const Div2=styled.div`
     top:5px;
     background-color:black;
     border:1px solid whitesmoke;
+    border-radius:10px;
     position:relative;
     opacity:50%;
     }`
@@ -40,9 +57,14 @@ export const Div2=styled.div`
     top:55px;
     left:43vw;
     background-color:white;
-    border-radius:10px;
+    
     border:1px solid whitesmoke;
     position:absolute;
+
+    .image{
+        object-fit:contain;
+        position:relative;
+    }
     }`
 
     export const Div4=styled.div`

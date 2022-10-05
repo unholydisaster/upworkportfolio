@@ -1,4 +1,4 @@
-import { Div, Div2, Div3, Div4, Div5, Div6, Div7, Imagecontainer, Img, ImgBackground } from "../styles/Pagesection";
+import { Div, Div2, Div3, Div4, Div5, Div6, Div7, Image1, Image2, Imagecontainer, Img, ImgBackground } from "../styles/Pagesection";
 import backgroundPic from "../../public/Image1.jpg"
 import profilepic from "../../public/Image2.jpg"
 import Image from 'next/image'
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
     <Imagecontainer>
-    <Image src={backgroundPic} layout="fill" alt="big"/>
+    <Image src={backgroundPic} layout="fill" className={"image"} alt="big"/>
     </Imagecontainer>
     
     <Div>
@@ -18,7 +18,7 @@ export default function Home() {
     </Div>
     <Div2/>
     <Div3>
-    <Image src={profilepic}  alt="big"/>
+    <Image src={profilepic} className={"image"} layout="fill" alt="small"/>
     </Div3>
     <Div4>
       <Div5/>
